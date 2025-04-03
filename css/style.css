@@ -1,0 +1,182 @@
+/* Custom Styles for Blog Responsivo */
+
+
+/* General Styles */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+/* Navbar Styles */
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+/* Hero Section */
+
+header {
+    background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+    padding: 4rem 0;
+}
+
+
+/* Card Styles */
+
+.card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* Social Links */
+
+.social-links a {
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
+}
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #212529;
+}
+
+footer a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #0d6efd !important;
+}
+
+
+/* Post Content Styles */
+
+.post-content h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #0d6efd;
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+}
+
+
+/* Contact Form Styles */
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+
+/* Responsive Adjustments */
+
+@media (max-width: 768px) {
+    header {
+        padding: 3rem 0;
+    }
+    .card-img-top {
+        height: 150px;
+    }
+}
+
+
+/* Custom Button Styles */
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+
+/* Custom Badge Styles */
+
+.badge {
+    padding: 0.5em 1em;
+    font-weight: normal;
+}
+
+
+/* Custom Card Header Styles */
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+
+/* Custom List Group Styles */
+
+.list-group-item {
+    border: none;
+    padding: 0.75rem 1.25rem;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+
+/* Custom Form Styles */
+
+.form-label {
+    font-weight: 500;
+}
+
+
+/* Custom Icon Styles */
+
+.fa-3x {
+    margin-bottom: 1rem;
+}
+
+
+/* Custom Text Styles */
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+
+/* Custom Spacing */
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+
+/* Custom Shadow */
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
